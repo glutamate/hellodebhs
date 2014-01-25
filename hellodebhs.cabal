@@ -1,0 +1,13 @@
+Name:                hellodebhs
+Version:             0.1
+Description:         Minimal Haskell-compiled Debian package
+License:             BSD3
+License-file:        LICENSE
+Author:              Tom Nielsen
+Maintainer:          tomn@openbrain.orf
+build-type:          Simple
+Cabal-Version:       >= 1.8
+
+Executable hellodebhs
+   Main-Is:             Hello.hs
+   Build-depends:  base                     >= 4.6        && < 5
