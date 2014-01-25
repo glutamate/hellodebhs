@@ -1,0 +1,36 @@
+Source: haskell-hellodebhs
+Maintainer: Tom Nielsen <tomn@openbrain.org>
+Priority: optional
+Section: haskell
+Build-Depends: debhelper (>= 7.0)
+               , haskell-devscripts (>= 0.8)
+               , cdbs
+               , ghc
+               , ghc-prof
+               , libghc-base-dev (>= 4.6) | ghc
+               , libghc-base-dev (<< 5) | ghc
+               , libghc-base-prof (>= 4.6) | ghc-prof
+               , libghc-base-prof (<< 5) | ghc-prof
+Build-Depends-Indep: ghc-doc
+                     , libghc-base-doc (>= 4.6) | ghc-doc
+                     , libghc-base-doc (<< 5) | ghc-doc
+
+Package: haskell-hellodebhs-utils
+Architecture: any
+Section: misc
+Depends: ${shlibs:Depends}
+         , ${haskell:Depends}
+         , ${misc:Depends}
+Recommends: ${haskell:Recommends}
+Suggests: ${haskell:Suggests}
+Conflicts: ${haskell:Conflicts}
+Provides: ${haskell:Provides}
+Replaces: ${haskell:Replaces}
+Description: No short description available
+ Minimal Haskell-compiled Debian package
+ .
+  Author: Tom Nielsen
+  Upstream-Maintainer: tomn@openbrain.orf
+ .
+ Files associated with the hellodebhs package.
+

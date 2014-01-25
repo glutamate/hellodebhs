@@ -6,6 +6,11 @@ apt-get update
 
 apt-get install -y build-essential libedit2 libgmp3-dev zlib1g-dev wget zile git haskell-platform
 
+apt-get install -y devscripts pbuilder git-buildpackage dh-make apt-utils haskell-devscripts cdbs ghc-prof ghc-doc libbz2-dev 
+
+cabal update
+
+
 SCRIPT
 
 Vagrant.configure("2") do |config|
