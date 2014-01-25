@@ -7,7 +7,9 @@ Author:              Tom Nielsen
 Maintainer:          tomn@openbrain.orf
 build-type:          Simple
 Cabal-Version:       >= 1.8
+Data-Files: config/foofile
 
 Executable hellodebhs
    Main-Is:             Hello.hs
-   Build-depends:  base                     >= 4.6        && < 5
+   Build-depends:  base    >= 4.6        && < 5
+

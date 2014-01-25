@@ -1,1 +1,2 @@
+config/foofile usr/share/hellodebhs/config
 dist-ghc/build/hellodebhs/hellodebhs usr/bin
