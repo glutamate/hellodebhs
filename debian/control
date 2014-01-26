@@ -1,5 +1,5 @@
 Source: haskell-hellodebhs
-Maintainer: Tom Nielsen <tomn@openbrain.org>
+Maintainer: Debian Haskell Group <pkg-haskell-maintainers@lists.alioth.debian.org>
 Priority: optional
 Section: haskell
 Build-Depends: debhelper (>= 7.0)
